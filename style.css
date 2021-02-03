@@ -1,4 +1,63 @@
 .footer{
+  padding-top: 400px;
   margin-left : 80px;
   font-size : 18px;
 }
+*{
+  all:revert;
+}
+/*Creates a box with gray solid line of 2px around characters*/
+.images
+{
+  border: 2px solid gray ;
+  border-radius: 5px;
+  width:150px;
+  height:300px;
+}
+p
+{
+  padding-left: 27%;
+}
+img
+{
+  padding-left: 10px;
+}
+p+p
+{
+  line-height: 0 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+h1{
+  padding-left: 40%;
+  line-height: 2 ;
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+}
+
+/*Aligns heros score and villans in the same line using grid*/
+.align-grid
+{
+  display: grid;
+  grid-template-columns: 500px 200px 500px;
+}
+
+/*Aligns hero characters in the same line using grid*/
+.heros
+{
+  padding-left:110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/*Aligns villans characters in the same line using grid*/
+.villans
+{
+  padding-right:110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
